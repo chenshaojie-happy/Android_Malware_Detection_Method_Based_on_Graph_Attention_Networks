@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.l2c.greprep">
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <application android:allowBackup="true" android:icon="@drawable/launchicon" android:label="@string/app_name" android:name="com.analytics.AnalyticsTracker" android:theme="@style/AppTheme">
+        <activity android:name="com.l2c.greprep.ChoosePDFActivity"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.MuPDFActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/vnd.ms-xpsdocument"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/pdf"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/x-cbz"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="*/*"/>
+                <data android:pathPattern=".*\\.xps"/>
+                <data android:host="*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="*/*"/>
+                <data android:pathPattern=".*\\.pdf"/>
+                <data android:host="*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="*/*"/>
+                <data android:pathPattern=".*\\.cbz"/>
+                <data android:host="*"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/outline_title" android:name="com.artifex.mupdf.OutlineActivity"/>
+        <activity android:label="@string/app_name" android:name="com.artifex.mupdf.bookmark" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.Gre" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.login" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.SwipePage" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.personal1" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.personal2" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.address" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.examdetails" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.TearmsAndConditions" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.menu" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.wordlist" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.lessonview" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.ListSearch" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.Calculator" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.timer" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.TestNew" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.TestNewSet" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.TestNewSetTestPage" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.TestNewSetTestResult" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.learn" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.practice" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.PracticeNew" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.PracticeNewSet" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.PracticeNewTestPage" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.CaptureSignature" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.NewsPage" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.NewsPageDec" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.fbshare" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.Social" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <data android:host="twitterapp://connect" android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.Badge" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.BadgesNew" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.BadgeTab" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.Unlocked" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.locked" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.ReferFriendTab" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.ReferFbContact" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.ReferPhoneContact" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.EzBuzzTab" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.EzBuzzTwitter" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.EzBuzzFacebook" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.TwitterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.hintdesk.Twitter_oAuth" android:scheme="oauth"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.SendEmailActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.Progress" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.ProgressMain" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.Progress_circle_main" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.ProgressLeaderBoard" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.ProgressLeaderBoardSet" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.ProgressLeaderBoardResult" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.ProgressAnalytics" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.ProgressAnalyticsPractice" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.ProgressAnalyticsPracticeSet" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.LeaderBoard" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.NotesPage" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.SettingsAll" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.Help" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.About" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.l2c.greprep.testResult" android:screenOrientation="portrait"/>
+        <activity android:name="com.quscient.inapp.utils.CartActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.twit_fb_integration.feeds.Fb_Tw_Activity" android:screenOrientation="portrait"/>
+        <activity android:name="com.l2c.greprep.EditProf1" android:screenOrientation="portrait"/>
+        <activity android:name="com.l2c.greprep.EditProf2" android:screenOrientation="portrait"/>
+        <activity android:name="com.l2c.greprep.EditProf3" android:screenOrientation="portrait"/>
+        <receiver android:name="com.quscient.sync.SyncReceiver"/>
+    </application>
+</manifest>

@@ -1,0 +1,66 @@
+[
+    {
+        "Library": "Android Support v4", 
+        "Match Ratio": "1579/1579", 
+        "Package": "Landroid/support/v4", 
+        "Permission": [
+            "android.permission.BACKUP", 
+            "android.permission.BLUETOOTH_ADMIN", 
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET", 
+            "android.permission.WAKE_LOCK"
+        ], 
+        "Popularity": 35265, 
+        "Standard Package": "Landroid/support/v4", 
+        "Type": "Development Aid", 
+        "Website": "http://developer.android.com/reference/android/support/v4/app/package-summary.html"
+    }, 
+    {
+        "Library": "Apache Cordova", 
+        "Match Ratio": "1748/1748", 
+        "Package": "Lorg/apache/cordova", 
+        "Permission": [
+            "android.permission.BACKUP", 
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET"
+        ], 
+        "Popularity": 3628, 
+        "Standard Package": "Lorg/apache/cordova", 
+        "Type": "Development Aid", 
+        "Website": "https://cordova.apache.org/"
+    }, 
+    {
+        "Library": "Google Mobile Services", 
+        "Match Ratio": "13390/13390", 
+        "Package": "Lcom/google/android/gms", 
+        "Permission": [
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET"
+        ], 
+        "Popularity": 13759, 
+        "Standard Package": "Lcom/google/android/gms", 
+        "Type": "Development Aid", 
+        "Website": "https://developers.google.com/android/reference/com/google/android/gms/package-summary"
+    }, 
+    {
+        "Library": "Google Ads", 
+        "Match Ratio": "60/60", 
+        "Package": "Lcom/google/ads", 
+        "Permission": [
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET"
+        ], 
+        "Popularity": 64498, 
+        "Standard Package": "Lcom/google/ads", 
+        "Type": "Advertisement", 
+        "Website": "https://www.google.com/ads/"
+    }
+]

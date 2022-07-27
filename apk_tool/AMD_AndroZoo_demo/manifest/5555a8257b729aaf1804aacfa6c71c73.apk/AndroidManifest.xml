@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ram.booster.RamBooster">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <application android:icon="@drawable/icon3" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:label="@string/app_name" android:name="com.ram.booster.RamBooster.main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <receiver android:label="@string/app_name" android:name="com.ram.booster.RamBooster.Widget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.droideilhan.android.widget.buttons.ButtonWidget.ACTION_WIDGET_RECEIVER"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_provider"/>
+        </receiver>
+        <meta-data android:name="com.google.android.gms.version" android:value="4030500"/>
+        <meta-data android:name="com.ozoka.zsofp129035.APPID" android:value="243437"/>
+        <meta-data android:name="com.ozoka.zsofp129035.APIKEY" android:value="android*1356964791129035382"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.ozoka.zsofp129035.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.ozoka.zsofp129035.BrowserActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.ozoka.zsofp129035.VActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <service android:exported="false" android:name="com.ozoka.zsofp129035.LService"/>
+        <receiver android:exported="true" android:name="com.ozoka.zsofp129035.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

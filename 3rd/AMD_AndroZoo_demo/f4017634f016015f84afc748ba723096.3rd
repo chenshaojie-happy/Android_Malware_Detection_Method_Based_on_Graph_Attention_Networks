@@ -1,0 +1,227 @@
+[
+    {
+        "Library": "Android Support v4", 
+        "Match Ratio": "1856/1856", 
+        "Package": "Landroid/support/v4", 
+        "Permission": [
+            "android.permission.BACKUP", 
+            "android.permission.BLUETOOTH_ADMIN", 
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET", 
+            "android.permission.WAKE_LOCK"
+        ], 
+        "Popularity": 83925, 
+        "Standard Package": "Landroid/support/v4", 
+        "Type": "Development Aid", 
+        "Website": "http://developer.android.com/reference/android/support/v4/app/package-summary.html"
+    }, 
+    {
+        "Library": "Apache Common", 
+        "Match Ratio": "221/221", 
+        "Package": "Lorg/apache/commons", 
+        "Permission": [], 
+        "Popularity": 150, 
+        "Standard Package": "Lorg/apache/commons", 
+        "Type": "Development Aid", 
+        "Website": "https://commons.apache.org/"
+    }, 
+    {
+        "Library": "Apache Http", 
+        "Match Ratio": "83/83", 
+        "Package": "Lorg/apache/http", 
+        "Permission": [], 
+        "Popularity": 171451, 
+        "Standard Package": "Lorg/apache/http", 
+        "Type": "Development Aid", 
+        "Website": "https://hc.apache.org/"
+    }, 
+    {
+        "Library": "Jsoup", 
+        "Match Ratio": "678/678", 
+        "Package": "Lorg/jsoup", 
+        "Permission": [], 
+        "Popularity": 6022, 
+        "Standard Package": "Lorg/jsoup", 
+        "Type": "Development Aid", 
+        "Website": "http://jsoup.org/"
+    }, 
+    {
+        "Library": "Json org", 
+        "Match Ratio": "50/50", 
+        "Package": "Lorg/json", 
+        "Permission": [], 
+        "Popularity": 39, 
+        "Standard Package": "Lorg/json", 
+        "Type": "Development Aid", 
+        "Website": "http://www.json.org/"
+    }, 
+    {
+        "Library": "Baidu Mobile Stat", 
+        "Match Ratio": "408/408", 
+        "Package": "Lcom/baidu/mobstat", 
+        "Permission": [
+            "android.permission.DUMP"
+        ], 
+        "Popularity": 2440, 
+        "Standard Package": "Lcom/baidu/mobstat", 
+        "Type": "Mobile Analytics", 
+        "Website": "https://developer.baidu.com/"
+    }, 
+    {
+        "Library": "Baidu APP SDK", 
+        "Match Ratio": "61/61", 
+        "Package": "Lcom/baidu/a", 
+        "Permission": [
+            "android.permission.DUMP"
+        ], 
+        "Popularity": "51931", 
+        "Standard Package": "Lcom/baidu/android", 
+        "Type": "Development Aid", 
+        "Website": "https://developer.baidu.com/"
+    }, 
+    {
+        "Library": "Android Viewpagerindicator Widget", 
+        "Match Ratio": "248/248", 
+        "Package": "Lcom/viewpagerindicator", 
+        "Permission": [
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET"
+        ], 
+        "Popularity": 39118, 
+        "Standard Package": "Lcom/viewpagerindicator", 
+        "Type": "Development Aid", 
+        "Website": "https://github.com/JakeWharton/ViewPagerIndicator"
+    }, 
+    {
+        "Library": "Google Gson", 
+        "Match Ratio": "395/395", 
+        "Package": "Lcom/google/gson", 
+        "Permission": [], 
+        "Popularity": 23475, 
+        "Standard Package": "Lcom/google/gson", 
+        "Type": "Development Aid", 
+        "Website": "https://github.com/google/gson"
+    }, 
+    {
+        "Library": "pulltorefresh", 
+        "Match Ratio": "269/269", 
+        "Package": "Lcom/handmark/pulltorefresh", 
+        "Permission": [
+            "android.permission.BACKUP", 
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET"
+        ], 
+        "Popularity": 26059, 
+        "Standard Package": "Lcom/handmark/pulltorefresh", 
+        "Type": "GUI Component", 
+        "Website": "https://github.com/chrisbanes/Android-PullToRefresh"
+    }, 
+    {
+        "Library": "Loopj", 
+        "Match Ratio": "252/252", 
+        "Package": "Lcom/loopj", 
+        "Permission": [
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL"
+        ], 
+        "Popularity": 251, 
+        "Standard Package": "Lcom/loopj", 
+        "Type": "Development Aid", 
+        "Website": "https://github.com/loopj/android-async-http"
+    }, 
+    {
+        "Library": "xunfei", 
+        "Match Ratio": "848/848", 
+        "Package": "Lcom/iflytek", 
+        "Permission": [
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET"
+        ], 
+        "Popularity": 4255, 
+        "Standard Package": "Lcom/iflytek", 
+        "Type": "Development Framework", 
+        "Website": "http://www.xfyun.cn/"
+    }, 
+    {
+        "Library": "iflyteck speech", 
+        "Match Ratio": "36/36", 
+        "Package": "Lcom/iflytek/speech", 
+        "Permission": [], 
+        "Popularity": 5281, 
+        "Standard Package": "Lcom/iflytek/speech", 
+        "Type": "Development Aid", 
+        "Website": ""
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/jakewharton", 
+        "Popularity": 101, 
+        "Standard Package": "Lcom/jakewharton", 
+        "Weight": 124
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/baidu/kirin", 
+        "Popularity": 2440, 
+        "Standard Package": "Lcom/baidu/kirin", 
+        "Weight": 241
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/way", 
+        "Popularity": 24, 
+        "Standard Package": "Lcom/way", 
+        "Weight": 71
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/baoyi/download", 
+        "Popularity": 127, 
+        "Standard Package": "Lcom/baoyi/download", 
+        "Weight": 129
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/webimageloader/loader", 
+        "Popularity": 94, 
+        "Standard Package": "Lcom/webimageloader/loader", 
+        "Weight": 104
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/handmark", 
+        "Popularity": 25581, 
+        "Standard Package": "Lcom/handmark", 
+        "Weight": 269
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/feiwoone", 
+        "Popularity": 252, 
+        "Standard Package": "Lcom/feiwoone", 
+        "Weight": 738
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/feiwothree", 
+        "Popularity": 33, 
+        "Standard Package": "Lcom/feiwothree", 
+        "Weight": 690
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/ringdroid", 
+        "Popularity": 72, 
+        "Standard Package": "Lcom/ringdroid", 
+        "Weight": 650
+    }
+]

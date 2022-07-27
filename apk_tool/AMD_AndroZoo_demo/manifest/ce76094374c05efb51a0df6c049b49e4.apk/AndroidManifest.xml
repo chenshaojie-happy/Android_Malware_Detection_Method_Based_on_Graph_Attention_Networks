@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.yong.pedometer">
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:configChanges="orientation" android:label="@string/app_name" android:name=".Pedometer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/activity_settings" android:name=".Settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name=".StepService"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.uucun.adsdk.OfferActivity"/>
+        <meta-data android:name="UU_APP_KEY" android:value="QgPdDcNeWxYY1tXJIW2bRO8vnlUmA806"/>
+        <meta-data android:name="Wooboo_PID" android:value="e72b9e696143434b846debf291e5ac90"/>
+        <meta-data android:name="Market_ID" android:value="1"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" android:name="com.wooboo.adlib_android.AdActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" android:name="com.wooboo.adlib_android.FullActivity"/>
+        <meta-data android:name="cooId" android:value="d22802475aa1480d8023e31d75aa1c23"/>
+        <activity android:name="com.kuguo.openads.AdsOfferListActivity"/>
+        <activity android:name="com.kuguo.pushads.PushAdsActivity" android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="com.android.action_PUSHADSACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.kuguo.pushads.AdsService"/>
+        <receiver android:name="com.kuguo.pushads.AdsReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="UMENG_APPKEY" android:value="4f35f341527015225200002a"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+</manifest>

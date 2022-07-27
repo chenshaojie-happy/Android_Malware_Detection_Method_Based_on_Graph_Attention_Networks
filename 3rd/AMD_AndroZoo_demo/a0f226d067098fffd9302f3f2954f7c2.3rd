@@ -1,0 +1,24 @@
+[
+    {
+        "Library": "Google Ads", 
+        "Match Ratio": "195/195", 
+        "Package": "Lcom/google/ads", 
+        "Permission": [
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET"
+        ], 
+        "Popularity": 44, 
+        "Standard Package": "Lcom/google/ads", 
+        "Type": "Advertisement", 
+        "Website": "https://www.google.com/ads/"
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/droidhen/game/racingengine", 
+        "Popularity": 21, 
+        "Standard Package": "Lcom/droidhen/game/racingengine", 
+        "Weight": 549
+    }
+]

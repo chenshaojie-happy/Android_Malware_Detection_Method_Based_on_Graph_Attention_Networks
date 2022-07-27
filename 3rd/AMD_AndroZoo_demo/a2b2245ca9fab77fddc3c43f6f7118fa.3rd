@@ -1,0 +1,59 @@
+[
+    {
+        "Library": "Umeng Common", 
+        "Match Ratio": "367/367", 
+        "Package": "Lcom/umeng/common", 
+        "Permission": [
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL"
+        ], 
+        "Popularity": 132, 
+        "Standard Package": "Lcom/umeng/common", 
+        "Type": "Development Aid", 
+        "Website": "http://dev.umeng.com/"
+    }, 
+    {
+        "Library": "Umeng feedback", 
+        "Match Ratio": "474/474", 
+        "Package": "Lcom/umeng/fb", 
+        "Permission": [
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET"
+        ], 
+        "Popularity": 328, 
+        "Standard Package": "Lcom/umeng/fb", 
+        "Type": "Mobile Analytics", 
+        "Website": "http://dev.umeng.com/feedback"
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/feiwothree", 
+        "Popularity": 33, 
+        "Standard Package": "Lcom/feiwothree", 
+        "Weight": 690
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/umeng/a", 
+        "Popularity": 205, 
+        "Standard Package": "Lcom/umeng/a", 
+        "Weight": 425
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/feiwo/banner/f", 
+        "Popularity": 147, 
+        "Standard Package": "Lcom/feiwo/banner/f", 
+        "Weight": 116
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/feiwo/banner/e", 
+        "Popularity": 129, 
+        "Standard Package": "Lcom/feiwo/banner/e", 
+        "Weight": 136
+    }
+]

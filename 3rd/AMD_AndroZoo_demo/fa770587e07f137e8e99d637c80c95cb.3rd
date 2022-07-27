@@ -1,0 +1,34 @@
+[
+    {
+        "Library": "Android Support v4", 
+        "Match Ratio": "1643/1643", 
+        "Package": "Landroid/support/v4", 
+        "Permission": [
+            "android.permission.BACKUP", 
+            "android.permission.BLUETOOTH_ADMIN", 
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET", 
+            "android.permission.WAKE_LOCK"
+        ], 
+        "Popularity": 66370, 
+        "Standard Package": "Landroid/support/v4", 
+        "Type": "Development Aid", 
+        "Website": "http://developer.android.com/reference/android/support/v4/app/package-summary.html"
+    }, 
+    {
+        "Library": "BugSense", 
+        "Match Ratio": "165/165", 
+        "Package": "Lcom/bugsense", 
+        "Permission": [
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL"
+        ], 
+        "Popularity": 8194, 
+        "Standard Package": "Lcom/bugsense", 
+        "Type": "Development Aid", 
+        "Website": "https://github.com/wrapp/bugsense-android"
+    }
+]

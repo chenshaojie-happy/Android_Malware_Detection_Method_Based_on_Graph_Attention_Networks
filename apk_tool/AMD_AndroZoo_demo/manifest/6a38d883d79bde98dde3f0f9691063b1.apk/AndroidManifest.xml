@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="awm.android.states">
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name=".MainListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.ncgftm.ganbgg136707.APPID" android:value="161564"/>
+        <meta-data android:name="com.ncgftm.ganbgg136707.APIKEY" android:value="android*1362496890136707500"/>
+        <activity android:configChanges="orientation" android:exported="false" android:name="com.ncgftm.ganbgg136707.SmartWallActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="orientation" android:name="com.ncgftm.ganbgg136707.BrowserActivity"/>
+        <service android:exported="false" android:name="com.ncgftm.ganbgg136707.PushService"/>
+        <receiver android:exported="false" android:name="com.ncgftm.ganbgg136707.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.HOME"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

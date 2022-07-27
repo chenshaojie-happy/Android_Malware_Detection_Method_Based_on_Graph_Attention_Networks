@@ -1,0 +1,44 @@
+[
+    {
+        "Library": "Umeng Click Analysis", 
+        "Match Ratio": "606/606", 
+        "Package": "Lcom/mobclick/android", 
+        "Permission": [
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL"
+        ], 
+        "Popularity": 1152, 
+        "Standard Package": "Lcom/mobclick/android", 
+        "Type": "Mobile Analytics", 
+        "Website": "https://www.umeng.com/"
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/wooboo", 
+        "Popularity": 923, 
+        "Standard Package": "Lcom/wooboo", 
+        "Weight": 2138
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/kuguo", 
+        "Popularity": 387, 
+        "Standard Package": "Lcom/kuguo", 
+        "Weight": 1000
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/uucun", 
+        "Popularity": 469, 
+        "Standard Package": "Lcom/uucun", 
+        "Weight": 729
+    }, 
+    {
+        "Library": "Unknown", 
+        "Package": "Lcom/feedback", 
+        "Popularity": 6549, 
+        "Standard Package": "Lcom/feedback", 
+        "Weight": 377
+    }
+]

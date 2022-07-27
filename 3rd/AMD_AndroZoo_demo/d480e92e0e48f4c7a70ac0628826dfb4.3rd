@@ -1,0 +1,37 @@
+[
+    {
+        "Library": "Android Support v4", 
+        "Match Ratio": "5653/5653", 
+        "Package": "Landroid/support/v4", 
+        "Permission": [
+            "android.permission.BACKUP", 
+            "android.permission.BLUETOOTH_ADMIN", 
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET", 
+            "android.permission.WAKE_LOCK", 
+            "android.permission.WRITE_SECURE_SETTINGS"
+        ], 
+        "Popularity": 5027, 
+        "Standard Package": "Landroid/support/v4", 
+        "Type": "Development Aid", 
+        "Website": "http://developer.android.com/reference/android/support/v4/app/package-summary.html"
+    }, 
+    {
+        "Library": "Android Support v7", 
+        "Match Ratio": "2669/2669", 
+        "Package": "Landroid/support/v7", 
+        "Permission": [
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET", 
+            "android.permission.MANAGE_APP_TOKENS"
+        ], 
+        "Popularity": 303, 
+        "Standard Package": "Landroid/support/v7", 
+        "Type": "Development Aid", 
+        "Website": "https://developer.android.com/reference/android/support/v7/app/package-summary.html"
+    }
+]

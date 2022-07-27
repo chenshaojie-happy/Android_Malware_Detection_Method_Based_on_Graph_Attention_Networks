@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.greencopper.android.estereopicnic" platformBuildVersionCode="23" platformBuildVersionName="6.0-2166767">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:maxSdkVersion="22" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:name="com.greencopper.android.estereopicnic.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.greencopper.android.estereopicnic.permission.C2D_MESSAGE"/>
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <application android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.greencopper.android.goevent.root.GoeventApplication" android:theme="@style/GoeventTheme">
+        <receiver android:name="com.greencopper.android.goevent.goframework.receiver.AlertInitReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.greencopper.android.goevent.goframework.receiver.AlertReceiver"/>
+        <receiver android:name="com.greencopper.android.goevent.goframework.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="com.greencopper.android.estereopicnic"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="com.google.android.maps"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBUZtTZNT0ozCwrbArHOi2tXX3n2Nd4qho"/>
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="com.greencopper.android.goevent.root.mobile.GOMainMobileActivity" android:screenOrientation="portrait" android:theme="@style/GoeventTheme.NoTitleBar" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="android.app.default_searchable" android:value="com.greencopper.android.goevent.modules.base.schedule.SearchActivity"/>
+        </activity>
+        <activity android:name="com.greencopper.android.goevent.goframework.GOOneFragmentActivity" android:screenOrientation="portrait">
+            <meta-data android:name="android.app.default_searchable" android:value="com.greencopper.android.goevent.modules.base.schedule.SearchActivity"/>
+        </activity>
+        <activity android:name="com.greencopper.android.goevent.goframework.GOBlurModalOneFragmentActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.facebook.LoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.greencopper.android.goevent.modules.base.settings.SettingsListActivity" android:screenOrientation="portrait" android:theme="@style/Theme.GreenDroid"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.greencopper.android.goevent.modules.videoatlaunch.VideoPlayerActivity" android:theme="@style/GoeventTheme.NoTitleBar"/>
+        <activity android:name="com.greencopper.android.goevent.modules.photos.PhotoSendActivity"/>
+        <activity android:name="com.greencopper.android.goevent.modules.photobooth.PhotoFrameTakeActivity" android:theme="@style/GoeventTheme.NoTitleBar.Fullscreen"/>
+        <activity android:name="com.greencopper.android.goevent.modules.photobooth.PhotoFrameShareActivity" android:screenOrientation="portrait" android:theme="@style/GoeventTheme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.greencopper.android.goevent.modules.qrscanner.CaptureActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.greencopper.android.goevent.modules.base.schedule.SearchActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+        <activity android:name="com.greencopper.android.goevent.modules.timeline.TimelineActivity" android:screenOrientation="landscape" android:theme="@style/GoeventTheme.NoTitleBar"/>
+        <activity android:name="com.spotify.sdk.android.authentication.LoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:name="com.greencopper.android.goevent.goframework.ota.GOUpdateService"/>
+        <service android:name="com.greencopper.android.goevent.goframework.audio.GOAudioService"/>
+        <service android:name="com.greencopper.android.goevent.goframework.map.MapSyncingService"/>
+        <service android:name="com.greencopper.android.goevent.modules.photos.AlbumsService"/>
+        <service android:name="com.greencopper.android.goevent.modules.photos.PhotosService"/>
+        <service android:name="com.greencopper.android.goevent.modules.photos.PhotoSendService"/>
+        <service android:name="com.greencopper.android.goevent.modules.videos.VideosService"/>
+        <service android:name="com.greencopper.android.goevent.modules.base.audio.streamingservice.custom.PodcastsService"/>
+        <service android:name="com.greencopper.android.goevent.modules.ads.PubService"/>
+        <service android:name="com.greencopper.android.goevent.modules.rssfeed.RssService"/>
+        <service android:name="com.greencopper.android.goevent.modules.base.social.twitter.TwitterService"/>
+        <service android:name="com.greencopper.android.goevent.modules.base.audio.streamingservice.soundcloud.SoundcloudService"/>
+        <service android:name="com.greencopper.android.goevent.modules.base.audio.streamingservice.spotify.SpotifyService"/>
+        <service android:name="com.greencopper.android.goevent.modules.base.audio.streamingservice.deezer.DeezerService"/>
+        <service android:name="com.greencopper.android.goevent.modules.base.favorites.FavoritesSyncService"/>
+        <service android:name="com.greencopper.android.goevent.modules.recommender.MusicRecommenderService"/>
+        <service android:name="com.greencopper.android.goevent.goframework.gcm.GCMService"/>
+        <service android:name="com.greencopper.android.goevent.goframework.gcm.GOGCMRegistrationService"/>
+        <service android:name="com.greencopper.android.goevent.modules.richpush.GMAlertService"/>
+        <service android:name="com.greencopper.android.goevent.modules.googlemap.friends.services.FriendsFinderService"/>
+        <provider android:authorities="com.greencopper.android.estereopicnic.multimedia" android:exported="false" android:name="com.greencopper.android.goevent.goframework.provider.MultimediaProvider"/>
+        <provider android:authorities="com.greencopper.android.estereopicnic.feed" android:exported="false" android:name="com.greencopper.android.goevent.goframework.provider.FeedProvider"/>
+        <provider android:authorities="com.greencopper.android.estereopicnic.userdata" android:exported="false" android:name="com.greencopper.android.goevent.goframework.provider.UserDataProvider"/>
+        <receiver android:name="com.eightysteve.KISSmetrics.ConnectivityReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.greencopper.android.goevent.goframework.receiver.ConnectivityReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" android:theme="@style/Theme.IAPTheme"/>
+        <activity android:clearTaskOnLaunch="true" android:name="com.journeyapps.barcodescanner.CaptureActivity" android:screenOrientation="sensorLandscape" android:stateNotNeeded="true" android:theme="@style/zxing_CaptureTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+    </application>
+</manifest>

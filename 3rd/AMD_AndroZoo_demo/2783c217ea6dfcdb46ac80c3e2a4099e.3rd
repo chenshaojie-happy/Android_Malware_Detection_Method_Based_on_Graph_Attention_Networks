@@ -1,0 +1,32 @@
+[
+    {
+        "Library": "Google Mobile Services", 
+        "Match Ratio": "12337/12337", 
+        "Package": "Lcom/google/android/gms", 
+        "Permission": [
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET"
+        ], 
+        "Popularity": 5927, 
+        "Standard Package": "Lcom/google/android/gms", 
+        "Type": "Development Aid", 
+        "Website": "https://developers.google.com/android/reference/com/google/android/gms/package-summary"
+    }, 
+    {
+        "Library": "Google Ads", 
+        "Match Ratio": "60/60", 
+        "Package": "Lcom/google/ads", 
+        "Permission": [
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET"
+        ], 
+        "Popularity": 64498, 
+        "Standard Package": "Lcom/google/ads", 
+        "Type": "Advertisement", 
+        "Website": "https://www.google.com/ads/"
+    }
+]

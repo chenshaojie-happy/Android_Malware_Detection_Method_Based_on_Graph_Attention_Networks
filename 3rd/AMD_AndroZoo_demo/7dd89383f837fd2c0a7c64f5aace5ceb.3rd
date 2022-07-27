@@ -1,0 +1,33 @@
+[
+    {
+        "Library": "Android Support v4", 
+        "Match Ratio": "2583/2583", 
+        "Package": "Landroid/support/v4", 
+        "Permission": [
+            "android.permission.BACKUP", 
+            "android.permission.BLUETOOTH_ADMIN", 
+            "android.permission.DUMP", 
+            "android.permission.INTERACT_ACROSS_USERS", 
+            "android.permission.INTERACT_ACROSS_USERS_FULL", 
+            "android.permission.INTERNET", 
+            "android.permission.WAKE_LOCK", 
+            "android.permission.WRITE_SECURE_SETTINGS"
+        ], 
+        "Popularity": 86858, 
+        "Standard Package": "Landroid/support/v4", 
+        "Type": "Development Aid", 
+        "Website": "http://developer.android.com/reference/android/support/v4/app/package-summary.html"
+    }, 
+    {
+        "Library": "Google GCM", 
+        "Match Ratio": "96/96", 
+        "Package": "Lcom/google/android/gcm", 
+        "Permission": [
+            "android.permission.DUMP"
+        ], 
+        "Popularity": 42552, 
+        "Standard Package": "Lcom/google/android/gcm", 
+        "Type": "Development Aid", 
+        "Website": "https://developers.google.com/cloud-messaging/"
+    }
+]
