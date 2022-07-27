@@ -1,0 +1,128 @@
+Umeng Analysis 571
+Umeng Analytics 596
+badlogic 7
+Json org 538
+Google Gson 606
+Unknown 5222
+Jsoup 1632
+Loopj 1477
+China Mobile PurchaseSDK 1522
+Android Package management 3
+Afinal 496
+Baidu Location 499
+Android Support v4 584
+Baidu Mobile Stat 7
+Umeng Click Analysis 4
+pulltorefresh 10
+baidu Stat Android SDK API. 48
+Baidu APP SDK 59
+Alipay 61
+cocos2DX 30
+TendDaTa 5
+Umeng U-push (Old version called agoo) 5
+Andengine Game Engine 4
+Umeng feedback 10
+Umeng Update 14
+Umeng Message Push 5
+Umeng Common 27
+Apache Common 13
+Tencent Wechat 26
+Fastjson 12
+AndroidAsync 1
+Tencent Login 63
+Twitter 2
+Tencent Weiyun 8
+Tencent WPA 8
+Tencent Map 4
+Tencent Qzone 8
+Tecent MTA 12
+getui 3
+Umeng newxp 6
+Weibo 13
+Facebook 2
+Nostra13 Image Loading 12
+Flurry 1
+Flurry SDK 1
+Esoteric Software 2D 2
+EventBus 1
+Tencent Tpush (Xinge) 4
+Nine Old Androids 6
+picasso 4
+Sina SSO 12
+Volley HTTP library 5
+Apache Http 8
+Apache James Mail Enterprise Serve 2
+SLF4J 1
+Mozilla Rhino 1
+Logback 1
+Adobe Air FRE 1
+MenuDrawer 1
+Baidu Mobile Ads 2
+Baidu Map 3
+ActionBarSherlock 3
+adsmogo 1
+Kankan Wheel Android scroller 1
+Android Support v7 11
+J256 6
+Pinyin4j 3
+Google Protocol Buffers 3
+Alibaba Amap 2
+Kxml2 3
+HockeyApp 1
+baidu push service 4
+Xiaomi Push 2
+miaomi mipush 1
+Umeng Socialize 6
+db4o 1
+xunfei 2
+iflyteck speech 2
+Baidu Frontia 5
+Tencent Weibo 4
+Google Mobile Services 5
+Google GCM 1
+Google Analytics 3
+Google API Client Libraries 1
+JavaBeans Activation Framework (JAF) 8
+JavaMail API 8
+Apache Harmony 10
+JavaBeans(TM) Activation Framework 7
+Sun Mail.jar 8
+Youmi Ads 1
+adwo 1
+Madhouse Inc Ads 1
+Google Ads 4
+millennialmedia 1
+Vpon 1
+domob 1
+Multidex 1
+Apache Log4j 2
+Dnsjava 2
+Smack 2
+Lenovo LPS 1
+Github 1
+Bugly 1
+Google Maps Utils 1
+AppsFlyer 1
+Adobe FlashPlayer 2
+Jpush 2
+GreenDao 1
+comscore 1
+Xiaomi Smack 1
+OkHttp okio Framework 1
+OkHttp 1
+AChartEngine 1
+Android Support v13 1
+Baiduyun Android Player 2
+Apache Cordova 1
+Zip4j 1
+Firebase 1
+renren sdk 2
+xUtils 2
+Qihoo push 1
+ShareSDK 2
+Mob share to tencent 2
+XML Pull 2
+Jackson Json-processor 1
+butterknife UI Framework 1
+Mob one key share 1
+SlidingMenu 1
